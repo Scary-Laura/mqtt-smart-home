@@ -1,0 +1,7 @@
+.env
+mqtt-smart\frontend\node_modules
+esp32\config.h
+.vscode
+mqtt-smart\lib
+mqtt-smart\include
+mqtt-smart\.pio
