@@ -1,9 +1,8 @@
-#include <WiFi.h>
-#include <PubSubClient.h>
-#include <DHTesp.h>
+#include "WiFi.h"
+#include "PubSubClient.h"
+#include "DHTesp.h"
 #include "config.h"
 
-// ⚠️ Credenciais carregadas de config.h (baseado em .env)
 
 WiFiClientSecure espClient;
 PubSubClient client(espClient);
