@@ -92,8 +92,8 @@ function connectMqtt() {
     reconnectPeriod: 5000,
     clientId: 'web_' + Math.random().toString(16).substr(2, 8),
     // Se o broker exigir autenticação, descomente as linhas abaixo:
-    // username: 'seu_usuario',
-    // password: 'sua_senha'
+    username: 'mqtt-user-Haykonen',
+    password: 'Haykonen1301'
   }
 
   mqttClient = mqtt.connect(brokerUrl.value, options)

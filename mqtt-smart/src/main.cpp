@@ -4,13 +4,13 @@
 #include <PubSubClient.h>
 #include <DHTesp.h>
 
-const char* ssid = "Wokwi-GUEST";
-const char* password = "";
+const char* ssid = "UNITRI";
+const char* password = "SOU+UNITRI!";
 
-const char* mqtt_server = "SEU_HOST";
+const char* mqtt_server = "0531c232a32645e69e0d7b6249001863.s1.eu.hivemq.cloud";
 
-const char* mqtt_user = "SEU_USUARIO";
-const char* mqtt_password = "SUA_SENHA";
+const char* mqtt_user = "mqtt-user-Haykonen";
+const char* mqtt_password = "Haykonen1301";
 
 WiFiClientSecure wifiClient;
 PubSubClient client(wifiClient);
