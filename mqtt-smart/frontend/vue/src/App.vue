@@ -65,7 +65,7 @@ import mqtt from 'mqtt'
 import Chart from 'chart.js/auto'
 
 // Configurações
-const brokerUrl = ref('wss://xxxxxx.s1.eu.hivemq.cloud:8884/mqtt') // Altere para o seu broker
+const brokerUrl = ref('wss://0531c232a32645e69e0d7b6249001863.s1.eu.hivemq.cloud:8884/mqtt') // Altere para o seu broker
 const mqttTopicSensor = 'faculdade/grupo01/sensor/+'
 const mqttTopicComando = 'faculdade/grupo01/comando/led'
 const mqttTopicStatus = 'faculdade/grupo01/status'
