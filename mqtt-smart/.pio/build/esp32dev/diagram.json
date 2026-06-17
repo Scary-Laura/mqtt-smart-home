@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "Equipe MQTT",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp"
+    },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht"
+    }
+  ],
+  "connections": [
+    ["esp:15", "dht:DATA"],
+    ["esp:3V3", "dht:VCC"],
+    ["esp:GND", "dht:GND"]
+  ]
+}
